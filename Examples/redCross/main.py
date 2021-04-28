@@ -9,8 +9,8 @@ item.add_id()
 
 donation = Table("donation", 2)
 
-book_send = openpyxl.load_workbook("../发放物资（2.13-2.14）.xlsx", read_only=True)
-book_donate = openpyxl.load_workbook("../捐赠物资（2.13-2.14）.xlsx", read_only=True)
+book_send = openpyxl.load_workbook("发放物资（2.13-2.14）.xlsx", read_only=True)
+book_donate = openpyxl.load_workbook("捐赠物资（2.13-2.14）.xlsx", read_only=True)
 
 
 sheet_send_names = book_send.sheetnames

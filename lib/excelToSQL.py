@@ -64,7 +64,7 @@ class Table:
                 if is_empty(data_row[i]):
                     data_row[i] = self.defaults[i - begin]
 
-                self.data_rows_buffer.append(data_row)
+            self.data_rows_buffer.append(data_row)
 
     def reference(self, key_map: tuple, table, tar_attr: str, sheet, column: int, lst_range: tuple):
         this_key = key_map[0]
